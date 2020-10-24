@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types> 
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>TransactionItem__c.Item_Cost__c</members>
+		<members>TransactionItem__c.Transaction__c</members>
+		<members>Transaction__c.Total_Cost__c</members>
+		<members>Transaction__c.Total_Discount__c</members>
+		<members>Transaction__c.Transaction_Count__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>TransactionItem__c</members>
+		<members>Transaction__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>TransactionItem__c-TransactionItem Layout</members>
+		<members>Transaction__c-Transaction Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>TransactionItem__c.All</members>
+		<members>Transaction__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>NamedCredential</name>
+	</types>
+	<version>49.0</version>
+</Package>
